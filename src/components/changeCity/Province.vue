@@ -106,8 +106,10 @@ export default {
       });
     },
     handleClick() {
-      this.$store.commit("setPosition", { name: this.searchWord });
-      this.$router.push({ name: "index" });
+      if (this.searchWord) {
+        this.$store.commit("setPosition", { name: this.searchWord });
+        this.$router.push({ name: "index" });
+      }
     },
   },
 };
