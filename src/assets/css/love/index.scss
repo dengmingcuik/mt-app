@@ -1,0 +1,54 @@
+.wrap {
+  margin-left: 20px;
+  padding: 16px 20px 0 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  h4 {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 12px;
+    color: #333;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      margin-bottom: 20px;
+      .imgbox {
+        border-radius: 4px;
+        height: 106px;
+        background-color: #ccc;
+        position: relative;
+        img {
+          display: block;
+          height: 70px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      .name {
+        font-size: 14px;
+        line-height: 20px;
+        color: #222;
+        margin: 10px 0 4px;
+      }
+      .dsc {
+        font-size: 12px;
+        line-height: 17px;
+        color: #999; 
+      }
+      .price {
+        font-size: 22px;
+        color: #f60;
+        line-height: 27px;
+        b {
+          font-weight: 400;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

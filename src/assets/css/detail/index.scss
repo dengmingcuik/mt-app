@@ -1,0 +1,325 @@
+.page-detail {
+  width: 1190px;
+  box-sizing: border-box;
+  margin: 20px auto 0;
+  .m-crumbs {
+    padding: 19px 0;
+    span {
+      font-size: 12px;
+      color: #222;
+      line-height: 17px;
+    }
+  }
+  .m-title {
+    width: 1148px;
+    height: 274px;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding-bottom: 33px;
+    background-color: #fff;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    box-shadow: 0 5px 14px 0 rgba(0,0,0,.1);
+    .d-left {
+      width: 748px;
+      height: 10px;
+      float: left;
+      padding-right: 20px;
+      .name {
+        font-size: 26px;
+        line-height: 37px;
+        font-weight: 500;
+        span {
+          color: #00c9b3;
+          font-size: 12px;
+          cursor: pointer;
+          float: right;
+          b {
+            background-image: url(https://s0.meituan.net/bs/file/?f=meis/meishi.web:assets/9180fa934a07d959.png@53635fc);
+            width: 15px;
+            height: 18px;
+            background-size: 100% 100%;
+            display: inline-block;
+            margin-right: 6px;
+            vertical-align: middle;
+            margin-top: -3px;
+          }
+        }
+      }
+      .score {
+        margin: 6px 0 17px 0;
+        font-size: 14px;
+        .el-rate {
+          display: inline;
+        }
+      }
+      .address {
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 16px 0 11px;
+        p {
+          font-size: 14px;
+          line-height: 20px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .d-right {
+      width: 380px;
+      height: 214px;
+      float: left;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .m-deal-items {
+    h3 {
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 8px;
+    }
+    .grop {
+      margin-bottom: 40px;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 16px 20px 20px;
+      h4 {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .content {
+        height: 104px;
+        margin-top: 17px;
+        padding: 20px;
+        border-bottom: 1px solid #e5e5e5;
+        img {
+          height: 100px;
+          border-radius: 5px;
+          float: left;
+        }
+        .info {
+          float: left;
+          padding-left: 20px;
+          .pbox {
+            width: 534px;
+            float: left;
+            .name {
+              font-size: 16px;
+              line-height: 22px;
+              cursor: pointer;
+              img {
+                vertical-align: middle;
+                font-size: 12px;
+                color: #fff;
+                height: 16px;
+                width: 16px;
+                display: inline-block;
+                margin-left: 14px;
+              }
+              img, span {
+                float: left;
+              }
+              &::after {
+                content: '';
+                display: block;
+                clear: both;
+              }
+            }
+            .sale {
+              font-size: 12px;
+              color: #666;
+              line-height: 17px;
+              margin: 1px 0 22px;
+              cursor: pointer;
+            }
+            .price {
+              font-size: 30px;
+              color: #f60;
+              cursor: pointer;
+              b {
+                font-size: 14px;
+                font-weight: 400;
+              }
+              span {
+                font-size: 12px;
+                color: #999;
+                margin-left: 10px;
+              }
+            }
+          }
+          a {
+            display: block;
+            width: 120px;
+            float: left;
+            height: 40px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 14px;
+            margin-top: 30px;
+            background-color: #f90;
+            text-align: center;
+            line-height: 40px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .m-food {
+    h3 {
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 8px;
+    }
+    .grop {
+      margin-bottom: 40px;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 16px 20px 20px;
+      .pic {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .imgbox {
+          display: inline-block;
+          position: relative;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          .dec {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            font-size: 14px;
+            width: 100%;
+            background: rgba(0,0,0,.3);
+            padding: 8px 0;
+            text-align: center;
+            color: #fff;
+          }
+        }
+      }
+      .list {
+        padding-top: 15px;
+        padding-left: 6px;
+        span {
+          display: block;
+          float: left;
+          margin: 0 20px 19px 0;
+          font-size: 16px;
+          line-height: 20px;
+          color: #333;
+        }
+        &::after {
+          display: block;
+          content: '';
+          clear: both;
+        }
+      }
+    }
+  }
+  .m-comment {
+    .title {
+      h3 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 8px;
+        float: left;
+      }
+      .sort {
+        cursor: pointer;
+        float: right;
+        font-size: 12px;
+        color: #999;
+        .active {
+          color: #00c9b3;
+        }
+      }
+      &:after {
+        display: block;
+        content: '';
+        clear: both;
+      }
+    }
+    .grop {
+      margin-bottom: 40px;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 16px 20px 20px;
+      .content {
+        padding: 30px 0;
+        border-bottom: 1px solid #E5E5E5;
+        &::after {
+          display: block;
+          content: '';
+          clear: both;
+        }
+        .header {
+          width: 60px;
+          height: 60px;
+          float: left;
+          border-radius: 50%;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .info {
+          padding-left: 20px;
+          float: left;
+          .name {
+            font-size: 16px;
+            color: #222;
+            line-height: 22px;
+            margin-bottom: 1px;
+          }
+          .souce {
+            line-height: 14px;
+            margin-top: 3px;
+            height: 16px;
+            font-size: 11px;
+          }
+          .desc {
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 13px;
+            width: 810px;
+            text-align: justify
+          }
+          .imgbox {
+            img {
+              width: 140px;
+              height: 140px;
+              margin: 15px;
+            }
+          }
+          .like-icon {
+            text-align: right;
+            margin: 17px 0 16px;
+            .like {
+              display: inline-block;
+              cursor: pointer;
+              font-size: 12px;
+              color: #666;
+              b {
+                background-image: url(https://s0.meituan.net/bs/file/?f=meis/meishi.web:assets/a9850ffbcbd6b5e6.png@53635fc);
+                background-size: 100% 100%;
+                width: 15px;
+                height: 16px;
+                display: inline-block;
+                margin-right: 6px;
+                vertical-align: text-bottom;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
